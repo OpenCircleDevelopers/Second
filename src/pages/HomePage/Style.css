@@ -1,0 +1,15 @@
+body {
+    background-color: #F0F8FF;
+}
+
+.container {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.quiz-group {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #d0e9ff;
+    text-align: left;
+}
