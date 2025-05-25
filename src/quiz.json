@@ -1,0 +1,70 @@
+{
+  "quiz": [
+    {
+      "id": "1",
+      "title": "Biology's Quiz",
+      "description": "Explore the fascinating world of biology with questions on cells, genetics, human anatomy, and ecosystems. Perfect for testing your understanding of life and living organisms in a fun, engaging way.",
+      "marks": "50",
+      "time": "5 minutes",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Math's Quiz",
+      "description": "Sharpen your problem-solving skills with questions on algebra, geometry, numbers, and more. This quiz is designed to test your logic and mathematical thinking in a fun and interactive way.",
+      "marks": "50",
+      "time": "5 minutes",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Chemistry's Quiz",
+      "description": "Challenge your understanding of atoms, molecules, chemical reactions, and the periodic table. This quiz is a great way to explore the principles that govern matter and its interactions.",
+      "marks": "50",
+      "time": "25 minutes",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "4",
+      "title": "English's Quiz",
+      "description": "Explore the fascinating world of biology with questions on cells, genetics, human anatomy, and ecosystems. Perfect for testing your understanding of life and living organisms in a fun, engaging way",
+      "marks": "50",
+      "time": "15 minutes",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Islamiyat's Quiz",
+      "description": "Explore the fascinating world of biology with questions on cells, genetics, human anatomy, and ecosystems. Perfect for testing your understanding of life and living organisms in a fun, engaging way",
+      "marks": "50",
+      "time": "25 minutes",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "555-555-5555"
+      }
+    }
+
+  ]
+}

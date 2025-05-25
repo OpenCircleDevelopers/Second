@@ -9,7 +9,10 @@ const Homepage = () => {
             <Link to="/create-quiz" className='mt-10 border px-5 py-3 rounded text-blue-400 active:text-blue-600' >Create New QUIZ</Link>
             <div className='quiz-group rounded'>
                 <div className="mx-15 py-5 mt-15">
-                    <h1>Other Quizes</h1>
+                    <div className='flex align-items-center'>
+                        <h1 className='inline my-auto'>heading1</h1>
+                        <Link to={`/solve-quiz/`} className=' ms-auto border px-5 py-3 rounded text-blue-400 active:text-blue-600'>Solve Me</Link >
+                    </div>
                 </div>
             </div>
         </div>
