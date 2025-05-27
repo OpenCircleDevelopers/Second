@@ -2,6 +2,14 @@ body {
     background-color: #F0F8FF;
 }
 
+.bg-primary {
+    background-color: #d0e9ff;
+}
+
+.w-80 {
+    width: 80%;
+}
+
 .container {
     text-align: center;
     margin-top: 90px;
@@ -10,6 +18,32 @@ body {
 .quiz-group {
     width: 70%;
     margin: 0 auto;
-    background-color: #d0e9ff;
     text-align: left;
+}
+
+@media (max-width: 640px) {
+    .quiz-group {
+        width: 100%;
+    }
+}
+
+
+.form {
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+.form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
 }
