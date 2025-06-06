@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './Style.css'
 import { Link, useLoaderData } from 'react-router-dom'
+import FormState from '../../context/FormState'
 
 const Homepage = () => {
     const data = useLoaderData()
+    const FormData = useContext(FormState)
     return (
         <div className='container mb-15'>
             <h1 className='title text-5xl mb-15'>Project Quiz</h1>
@@ -21,6 +23,7 @@ const Homepage = () => {
 
                 </div>
             </div>
+            <h1>{FormData.name}</h1>
         </div>
     )
 }
