@@ -5,7 +5,7 @@ import FormState from '../../context/FormState'
 
 const Homepage = () => {
     const data = useLoaderData()
-    const FormData = useContext(FormState)
+    const formData = useContext(FormState)
     return (
         <div className='container mb-15'>
             <h1 className='title text-5xl mb-15'>Project Quiz</h1>
@@ -23,7 +23,7 @@ const Homepage = () => {
 
                 </div>
             </div>
-            <h1>{FormData.name}</h1>
+            <h1>{console.log(formData)}</h1>
         </div>
     )
 }

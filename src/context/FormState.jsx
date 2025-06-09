@@ -1,9 +1,11 @@
-import FormContext from './FormContext'
+import React,{ createContext } from 'react'
+
+const FormContext = createContext();
 
 const FormState = (props) => {
 
     const state = {
-        "name": 'Hasnan',
+        name: 'Hasnan',
         email: 'demo@gmail.com',
         phone: '+92 333 333 333',
         address: 'near by park',
@@ -12,6 +14,7 @@ const FormState = (props) => {
         zip: '01234',
 
     }
+    
 
     return (
         <FormContext.Provider value={state}>
